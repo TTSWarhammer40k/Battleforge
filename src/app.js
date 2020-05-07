@@ -8,7 +8,7 @@ const persistantMessage = ' If this problem persists, please contact us via r/TT
 const saveLocations = {
     darwin: os.homedir() + '/Library/Tabletop Simulator',
     linux: "",
-    win32: os.homedir() + '\\Documents\\Tabletop Simulator',
+    win32: os.homedir() + '\\Documents\\My Games\\Tabletop Simulator',
 }
 
 const saveTo = saveLocations[os.platform()];
