@@ -1,0 +1,16 @@
+{
+  "name": "battleforge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "app/app.js",
+  "pkg": {
+    "scripts": "src/**/*.js"
+  },
+  "repository": "git@github.com:TTSWarhammer40k/Battleforge.git",
+  "author": "Marcus Coleman <Sunhat@users.noreply.github.com>",
+  "private": false,
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "pkg": "^4.4.8"
+  }
+}
